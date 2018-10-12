@@ -3,7 +3,7 @@
 import {combineReducers} from 'redux'
 import {LOG_OUT} from '../actions/types'
 import authReducer from './authReducer'
-// import recReducer from './recReducer'
+import recReducer from './recReducer'
 // import layoutReducer from './layoutReducer'
 // import stakehReducer from './stakehReducer'
 
@@ -16,7 +16,7 @@ const appReducer = combineReducers({
     // stakeh:stakehReducer,
     // activities:activitiesReducer,
     // tasks:taskReducer,
-    // records:recReducer
+    records:recReducer
  })
 
 export const rootReducer = ( state, action ) => {

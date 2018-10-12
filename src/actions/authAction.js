@@ -1,4 +1,9 @@
- import {LOGIN_SUCCESS,LOGIN_FAIL,LOG_OUT,AUTH_LOADING} from './types'
+ import {
+     LOGIN_SUCCESS,
+     LOGIN_FAIL,
+     LOG_OUT,
+     AUTH_LOADING
+    } from './types'
 
  export const login = (authData) => dispatch =>{
     dispatch(isAuth())
